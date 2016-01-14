@@ -73,8 +73,9 @@ hr {
 }
 .well {
   min-height: 20px;
-  margin: 100px 30px;
+  bottom:0;
   background-color: #d8adbd;
+    background: rgba(216, 173, 189, 0.75);
   border-color:transparent;
   position: absolute;
   text-align: center;
@@ -87,13 +88,13 @@ hr {
 }
 .pagination {
     position: relative;
-    margin-top: 200px;
+    margin-top: 140px;
 }
 .pagination > li > a,
 .pagination > li > span {
     position: relative;
     float: left;
-    padding: 6px 12px;
+    padding: 12px 12px;
     margin-left: -1px;
     line-height: 1.42857143;
     color: #fff;
@@ -119,7 +120,7 @@ figcaption {
     position: absolute;
     background: black;
     background: rgba(216, 173, 189, 0.75);
-    color: #f0c1d2;
+    color: #fff;
     padding: 10px 20px;
     opacity: 0;
     margin: auto;
@@ -255,36 +256,40 @@ figure:hover:before {
     z-index:1;
 }
 #image1 {
-    left: 150px;
+    left: 350px;
+	margin-top: 150px;
 }
 #image2 {
-    left: 375px;
+    left: 675px;
+	margin-top: 150px;
 }
 #image3 {
-    left: 600px;
+    left: 800px;
+	margin-top: 150px;
 }
 #image4 {
-    left: 950px;
+    left: 1250px;
+	margin-top: 150px;
 }
 #image5 {
-    left: 200px;
-    margin-top: 250px;
+    left: 300px;
+    margin-top: 350px;
 }
 #image6 {
-    left: 450px;
-    margin-top: 250px;
+    left: 550px;
+    margin-top: 350px;
 }
 #image7 {
-    left: 700px;
-    margin-top: 250px;
+    left: 800px;
+    margin-top: 350px;
 }
 #image8 {
-    left: 950px;
-    margin-top: 250px;
+    left: 1050px;
+    margin-top: 350px;
 }
 #image9 {
-    left: 1100px;
-    margin-top: 250px;
+    left: 1200px;
+    margin-top: 350px;
 }
 #image10 {
     left: 700px;
@@ -318,136 +323,136 @@ figure:hover:before {
 /*Dimensions of the image*/
 
 #image1 img {
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
 }
 #image1 img:hover {
     height: 400px;
     width: 400px;
 }
 #image2 img {
-    height: 225px;
-    width: 200px;
+    height: 325px;
+    width: 300px;
 }
 #image2 img:hover {
     height: 425px;
     width: 400px;
 }
 #image3 img {
-    height: 225px;
-    width: 200px;
+    height: 325px;
+    width: 300px;
 }
 #image3 img:hover {
     height: 425px;
     width: 400px;
 }
 #image4 img {
-    height: 200px;
-    width: 225px;
+    height: 300px;
+    width: 325px;
 }
 #image4 img:hover {
     height: 400px;
     width: 425px;
 }
 #image5 img {
-    height: 200px;
-    width: 225px;
+    height: 300px;
+    width: 325px;
 }
 #image5 img:hover {
     height: 400px;
     width: 425px;
 }
 #image6 img {
-    height: 225px;
-    width: 225px;
+    height: 325px;
+    width: 325px;
 }
 #image6 img:hover {
     height: 425px;
     width: 425px;
 }
 #image7 img {
-    height: 250px;
-    width: 250px;
+    height: 350px;
+    width: 350px;
 }
 #image7 img:hover {
     height: 450px;
     width: 450px;
 }
 #image8 img {
-    height: 200px;
-    width: 225px;
+    height: 300px;
+    width: 325px;
 }
 #image8 img:hover {
     height: 400px;
     width: 425px;
 }
 #image9 img {
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
 }
 #image9 img:hover {
     height: 400px;
     width: 400px;
 }
 #image10 img {
-    height: 200px;
-    width: 200px;
+    height: 400px;
+    width: 400px;
 }
 #image10 img:hover {
-    height: 400px;
-    width: 400px;
+    height: 500px;
+    width: 500px;
 }
 #image11 img {
-    height: 200px;
-    width: 200px;
+    height: 400px;
+    width: 400px;
 }
 #image11 img:hover {
-    height: 400px;
-    width: 400px;
-}
-#image12 img {
-    height: 200px;
-    width: 200px;
-}
-#image12 img:hover {
-    height: 400px;
-    width: 400px;
+    height: 500px;
+    width: 500px;
 }
 #image13 img {
-    height: 200px;
-    width: 200px;
+    height: 400px;
+    width: 400px;
 }
 #image13 img:hover {
+    height: 500px;
+    width: 500px;
+}
+#image13 img {
     height: 400px;
     width: 400px;
+}
+#image13 img:hover {
+    height: 500px;
+    width: 500px;
 }
 #image14 img {
-    height: 200px;
-    width: 200px;
+    height: 400px;
+    width: 400px;
 }
 #image14 img:hover {
-    height: 400px;
-    width: 400px;
+    height: 500px;
+    width: 500px;
 }
 #image15 img {
-    height: 200px;
-    width: 200px;
+    height: 400px;
+    width: 400px;
 }
 #image15 img:hover {
-    height: 400px;
-    width: 400px;
+    height: 500px;
+    width: 500px;
 }
 #image16 img {
-    height: 200px;
-    width: 200px;
-}
-#image16 img:hover {
     height: 400px;
     width: 400px;
 }
+#image16 img:hover {
+    height: 500px;
+    width: 500px;
+}
 #image17 img {
-    height: 200px;
-    width: 200px;
+    height: 400px;
+    width: 400px;
 }
 #image17 img:hover {
     height: 400px;
